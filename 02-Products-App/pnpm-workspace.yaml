@@ -1,2 +1,4 @@
+# pnpm-workspace.yaml
 packages:
-  - 'libs/**'
+  - 'libs/*'               # paquetes compartidos
+  - '*-ms'                # todos los servicios con -ms
