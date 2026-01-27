@@ -1,0 +1,15 @@
+{
+  "name": "@app/common",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "pnpm -r build"
+  },
+  "keywords": [],
+  "author": "Frandy Jeffry Cepeda",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1"
+}
