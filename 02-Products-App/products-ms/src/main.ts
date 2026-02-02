@@ -4,6 +4,8 @@ import { Logger, ValidationPipe } from '@nestjs/common';
 import { envs } from './config/envs';
 
 async function bootstrap() {
+
+  const logger = new Logger('Main');
   const app = await NestFactory.create(AppModule);
 
   app.useGlobalPipes(  
@@ -17,6 +19,6 @@ async function bootstrap() {
 
   await app.listen(envs.port);
   
-  Logger.log('Products Microservice is running in port ' + (process.env.PORT ?? 3000));
+  logger.log('Products Microservice is running in port ' + (process.env.PORT ?? 3000));
 }
 bootstrap();

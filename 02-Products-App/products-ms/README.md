@@ -29,5 +29,9 @@ pnpm prisma generate
 ```
 pnpm install @prisma/adapter-better-sqlite3
 ```
+7. Ver BD
+```
+pnpm run prisma:studio
+```
 
 
