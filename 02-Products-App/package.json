@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
         "start:products": "pnpm --filter products-ms start:dev",
+        "start:client": "pnpm --filter client-gateway start:dev",
         "dev": "pnpm recursive run start:dev"
     },
   "devDependencies": {

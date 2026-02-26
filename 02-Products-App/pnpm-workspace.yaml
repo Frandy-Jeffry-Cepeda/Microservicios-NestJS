@@ -2,3 +2,4 @@
 packages:
   - 'libs/*'               # paquetes compartidos
   - '*-ms'                # todos los servicios con -ms
+  - 'client-gateway/'
